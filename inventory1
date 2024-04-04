@@ -1,0 +1,15 @@
+#[proxmox]
+#root@192.170.50.34
+
+[koronis]
+hermes@192.170.50.36
+
+[polaris]
+hermes@192.170.50.41
+
+[cygnus]
+hermes@192.170.50.43
+
+[wazuh]
+hermes@192.170.50.44
+
