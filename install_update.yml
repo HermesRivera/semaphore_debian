@@ -1,0 +1,14 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: install updates (Ubuntu and Proxmox)
+    tags: always
+    apt:
+      upgrade: dist
+      update_cache: yes
+
+
+ 
